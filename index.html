@@ -13,11 +13,11 @@
     <!-- Font Awesome if you need it
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     -->
-<!--    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>-->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!--    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>-->
     <!--Replace with your tailwind.css once created-->
 
-  <script type="module" crossorigin src="/assets/index-BVz0Qf_Y.js"></script>
+  <script type="module" crossorigin src="/assets/index-CFAELwTn.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-YCoKXVBx.css">
 </head>
 
 <body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
@@ -49,14 +49,15 @@
             <p id="description" class="pt-8 text-sm"></p>
 
             <div class="py-5">
-<!--                <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full" onclick="() => {-->
-<!--                  window.location.href = 'https://'-->
-<!--                }">-->
-<!--                    Get In Touch-->
-<!--                </button>-->
+                <!--                <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full" onclick="() => {-->
+                <!--                  window.location.href = 'https://'-->
+                <!--                }">-->
+                <!--                    Get In Touch-->
+                <!--                </button>-->
             </div>
 
-            <div id="socials" class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between lg:px-28">
+            <div id="socials"
+                 class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between lg:px-28">
 
             </div>
 
@@ -82,41 +83,8 @@
     </div>
 
 </div>
-
 <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@4"></script>
-<script>
-    //Init tooltips
-    tippy('.link', {
-        placement: 'bottom'
-    })
-
-    //Toggle mode
-    const toggle = document.querySelector('.js-change-theme');
-    const body = document.querySelector('body');
-    const profile = document.getElementById('profile');
-
-
-    toggle.addEventListener('click', () => {
-
-        if (body.classList.contains('text-gray-900')) {
-            toggle.innerHTML = "☀️";
-            body.classList.remove('text-gray-900');
-            body.classList.add('text-gray-100');
-            profile.classList.remove('bg-orange-50');
-            profile.classList.add('bg-neutral-900');
-        } else {
-            toggle.innerHTML = "🌙";
-            body.classList.remove('text-gray-100');
-            body.classList.add('text-gray-900');
-            profile.classList.remove('bg-neutral-900');
-            profile.classList.add('bg-orange-50');
-
-        }
-    });
-
-</script>
-
 </body>
 
 </html>
